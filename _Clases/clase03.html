@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contenido Embebido</title>
+	
+	<style>
+		
+		li[data-user="user"]
+		{
+			color: red;
+		}
+		li[data-user="admin"]
+		{
+			color: green;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<header>
+		
+	</header>
+	
+	<nav role="navegacion-principal">
+		
+		<ul onclick="alert('Hola')">
+			<li data-user="user">Item1</li>
+			<li data-user="admin">Item2</li>
+			<li data-user="user">Item3</li>
+			<li data-user="user">Item4</li>
+		</ul>
+
+	</nav>
+
+	<main role="contenido-principal">
+		
+		<p class="parrafo" id="primer-parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit placeat commodi quo consectetur, pariatur quis nostrum asperiores ipsam mollitia.</p>
+
+	</main>
+
+	<input type="text">
+</body>
+</html>

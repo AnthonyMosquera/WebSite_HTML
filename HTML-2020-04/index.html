@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 - Enlaces y Listas</title>
+</head>
+<body>
+    <!--Arquitectura Cliente - Servidor
+        * Cliente: 
+        el dispositivo que solicita la pagina web.
+        * Servidor: 
+        es el hardware y software que almacena y entrega la pagina web y sus componentes.
+    -->
+    <h1>Hola Anthony</h1>
+
+    <!--Enlaces 
+        Se crean con la etiqueta a (anchor)
+    -->
+    <p>
+        <a href="https://github.com/AnthonyMosquera">Ir a mi Repositorio GitHub</a>
+    </p>
+
+    <!--Atributos opcionales
+        Target="_blank" (Pestaña nueva.)
+        rel="nofollow" (Enlace para que google no tome en cuenta en CEO.)
+        rel="noreferecnce" (No indica al destino el origen del link CEO.)
+        rel="noopener" (evita incrustación de codigo malicioso al abrir enlaces en nuevas pestañas.)
+        download (Desacrga el recurso en lugar de abrir en el navegador.) Debe estar en nuestro proyecto.
+    -->
+
+    <p>
+        <a href="https://github.com/AnthonyMosquera" target="_blank">Ir a mi Repositorio GitHub, pestaña nueva</a>
+    </p>
+
+    <p>
+        <a href="https://www.infobae.com/new-resizer/CN-r1CxWksTRXMh38HfKhxW483k=/420x236/filters:format(jpg):quality(85)//arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/SPT35Y22RREGNORTIJ5VIED2XI.jpg">Ver de Google</a>
+        
+        <br>
+
+        <a href="img/personajes/goku.jpg" download>Descargar imagen</a>
+    </p>
+
+    <!--Rutas 
+        Rutas Absolutas:
+            * Son enlaces de otras paginas. (HTTP - HTTPS)
+        Rutas Relativas:
+            * Son rutas internas del proyecto.
+        Rutas Relativas a la raiz:
+            * Se construyen a partir de la carpeta raid del proyecto.
+    -->
+    <p>
+        <a href="img/personajes/goku.jpg">Goku</a>
+    </p>
+
+    <p>
+        <a href="html/imagenes.html">Ir a imagenes</a>
+    </p>
+
+    <p>
+        <a href="html/marcadores.html">Ir a marcadores</a>
+    </p>
+
+    <!-- Listas -->
+    <p>
+        <a href="html/listas.html">Ir a las listas</a>
+    </p>
+</body>
+</html>
